@@ -7,4 +7,5 @@ amount = int(input('Quantas senhas você quer criar?'))
 for i in range(amount):
     for j in range(size):
         password += random.choice(characters)
-print(password)
+    print(password)
+    password = ''
